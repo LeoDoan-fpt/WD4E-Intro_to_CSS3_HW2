@@ -2,39 +2,56 @@ body {
     font-family: Arial, sans-serif;
     font-size: 18px;
     margin: 0;
-    background-color: #fff0f6;
+    background-color: #e0fbfc;
+    color: #102a43;
 }
 
 header {
-    background-color: #ff8fab;
+    background-color: #83c5be;
     padding: 20px;
 }
 
 nav {
-    background-color: #c9184a;
+    background-color: #006d77;
     padding: 10px;
 }
 
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    color: #ffddd2;
+    text-decoration: underline;
+}
+
 main {
-    background-color: #fff5f8;
+    background-color: #edf6f9;
     font-size: 20px;
     padding: 20px;
 }
 
 footer {
-    background-color: #ffb3c6;
+    background-color: #83c5be;
     padding: 15px;
 }
 
 li {
     display: inline-block;
-    width: 150px;
+    width: 220px;
 }
 
 h1 {
     text-align: center;
     font-family: Georgia, serif;
-    color: #590d22;
+    color: #003049;
 }
 
 p {
